@@ -108,8 +108,8 @@ class PeliculaDetalle extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(pelicula.title, style: Theme.of(context).textTheme.headline4, overflow: TextOverflow.ellipsis,),
-                  Text(pelicula.originalTitle, style: Theme.of(context).textTheme.headline5, overflow: TextOverflow.ellipsis,),
+                  Text(pelicula.title, style: Theme.of(context).textTheme.headline4, overflow: TextOverflow.clip,),
+                  Text(pelicula.originalTitle, style: Theme.of(context).textTheme.headline5, overflow: TextOverflow.clip,),
                   Text(pelicula.releaseDate, style: Theme.of(context).textTheme.headline6),
                   Row(
                     children: [
